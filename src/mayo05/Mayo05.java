@@ -27,6 +27,24 @@ public class Mayo05 {
         Cadena = leer.next();
         System.out.println(Cadena);
         
+        System.out.print("Ingresa un Numero Entero: ");
+        Numero = leer.nextInt();
+        System.out.println(Numero);
+        
+        for(int i=1; i<=Numero; i++)
+        {
+            System.out.println(i);
+        }
+        
+        if(Numero >= 10)
+        {
+            System.err.println("El numero " + Numero + "Es mayor o igual que 10");
+        }
+        else
+        {
+            System.err.println("El numero " + Numero + "Es menor que 10");
+        }
+        
     }
     
 }
