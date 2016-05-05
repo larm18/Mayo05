@@ -5,6 +5,7 @@
  */
 package mayo05;
 
+import java.util.Scanner;
 /**
  *
  * @author luis
@@ -16,6 +17,16 @@ public class Mayo05 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println("CESUN Universidad");
+        
+        Scanner leer = new Scanner(System.in);
+        String Cadena = "";
+        int Numero = 0;
+        
+        System.out.print("Guardar la siguiente cadena:");
+        Cadena = leer.next();
+        System.out.println(Cadena);
+        
     }
     
 }
