@@ -38,11 +38,11 @@ public class Mayo05 {
         
         if(Numero >= 10)
         {
-            System.err.println("El numero " + Numero + "Es mayor o igual que 10");
+            System.out.println("El numero " + Numero + "Es mayor o igual que 10");
         }
         else
         {
-            System.err.println("El numero " + Numero + "Es menor que 10");
+            System.out.println("El numero " + Numero + "Es menor que 10");
         }
         
     }
